@@ -1,7 +1,7 @@
 # Mentorship Response
 
 ## Contents
-### Contributing to the Profession 
+### [Contributing to the Profession](#contributing-to-the-profession)
 1. Join Professional Organizations
 2. Publish Research
 3. Mentor Others
