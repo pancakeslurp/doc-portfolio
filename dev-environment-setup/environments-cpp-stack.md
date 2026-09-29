@@ -140,5 +140,6 @@ genhtml cov.info --output-directory cov-report
 Open `cov-report/index.html` in your browser.
 
 10. Commit
-
+```
 git add -A && git commit -m "Initial CMake project with tests"
+```
