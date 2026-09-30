@@ -4,7 +4,9 @@ Filename: industry-grc-reference.md
 Creation date: 2026-09-30
 
 Notes: This doc is 100% made with Claude AI and hasn't been post-edited. I saved it to use the category list as a framework for software development in my college classes. I wouldn't take the matrix with the employment outlook below too seriously. If you ask, I can send you the original Claude thread.
+
 TLDR: AI-generated
+
 ---
 
 # GRC Industry Reference: Regulations, Standards, Frameworks, and Dev Stacks
