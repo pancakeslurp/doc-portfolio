@@ -11,9 +11,40 @@ TLDR: AI-generated
 
 # GRC Industry Reference: Regulations, Standards, Frameworks, and Dev Stacks
 
-Compiled for choosing a target industry to frame college software projects around governance, risk, and compliance (GRC). Twenty industries are profiled, followed by a comparison matrix and a list of date-sensitive items to verify.
+*Revision 2: 24 industries. Added since the first version: Space: Communications and Satellites, Space: Manned Missions, Healthcare: Life Support Systems, and Space: Life Support Systems. The matrix has been re-scored and re-ranked.*
+
+Compiled for choosing a target industry to frame college software projects around governance, risk, and compliance (GRC). Part 1 is a comparison matrix and shortlist guidance. Part 2 holds the industry profiles. Part 3 lists date-sensitive items to verify.
 
 **How to read this:** each profile covers Regulations, Standards, Frameworks and platforms, Dev stacks, Process and compliance, Student-project feasibility, and a Key insight. Scores in the matrix are my subjective judgments, not measured data. All content was written from general knowledge without live source checks, so verify anything dated before citing it in coursework (see Part 3).
+
+## Contents
+
+| # | Industry |
+|---|---|
+| 1 | Healthcare: General |
+| 2 | Healthcare: Public Health |
+| 3 | Healthcare: Medical Equipment and Tech |
+| 4 | Aviation: Commercial Flights |
+| 5 | Aviation: Shipping (Air Cargo and Logistics) |
+| 6 | Aviation: Defense |
+| 7 | Fintech: Insurance |
+| 8 | Fintech: Digital Payments and Transfers |
+| 9 | Fintech: Investing |
+| 10 | National Security: Emergency Management |
+| 11 | National Security: Counterterrorism and Counter-Narcotics |
+| 12 | Law Enforcement: Cybercrime |
+| 13 | Emergency Services: Fire and Rescue |
+| 14 | Emergency Services: HAZMAT |
+| 15 | Healthcare: Public Health Emergencies |
+| 16 | Agriculture: Sustainable Farming |
+| 17 | Agriculture: Veterinary |
+| 18 | Agriculture: Food Safety |
+| 19 | Defense: Command and Control |
+| 20 | Automotive (Road Vehicles and Software-Defined Vehicles) |
+| 21 | Space: Communications and Satellites *(new)* |
+| 22 | Space: Manned Missions *(new)* |
+| 23 | Healthcare: Life Support Systems *(new)* |
+| 24 | Space: Life Support Systems *(new)* |
 
 ---
 
@@ -30,62 +61,101 @@ Compiled for choosing a target industry to frame college software projects aroun
 | **Entry openness** | Absence of barriers such as clearance or citizenship. 5 = open to anyone. |
 | **Score** | Standards access + Embedded fit + Hiring demand + Entry openness (max 20). |
 
-### Matrix (sorted by score)
+**Ranking rules:** sorted by score. Ties share a rank (for example, "4" means tied for 4th) and are ordered by embedded fit, then hiring demand, then name.
+
+### Matrix (re-ranked, 24 industries)
 
 | Rank | Industry | Process weight | Standards access | Embedded/systems fit | Hiring demand | Entry openness | Score |
 |---|---|---|---|---|---|---|---|
 | 1 | Healthcare: Medical Equipment and Tech | 5 | 4 | 5 | 5 | 5 | **19** |
 | 2 | Automotive (road vehicles, SDV) | 5 | 3 | 5 | 5 | 5 | **18** |
-| 3 | Healthcare: General | 4 | 4 | 3 | 5 | 5 | **17** |
-| 3 | Fintech: Digital Payments and Transfers | 3 | 4 | 3 | 5 | 5 | **17** |
-| 3 | Fintech: Investing | 3 | 4 | 4 | 4 | 5 | **17** |
-| 3 | Agriculture: Sustainable Farming | 2 | 5 | 4 | 3 | 5 | **17** |
-| 3 | Agriculture: Food Safety | 3 | 5 | 4 | 3 | 5 | **17** |
-| 8 | Aviation: Commercial Flights | 5 | 3 | 5 | 4 | 4 | **16** |
-| 8 | Fintech: Insurance | 2 | 5 | 2 | 4 | 5 | **16** |
-| 8 | National Security: Emergency Management | 3 | 5 | 3 | 4 | 4 | **16** |
-| 8 | Healthcare: Public Health Emergencies | 3 | 5 | 3 | 3 | 5 | **16** |
-| 12 | Healthcare: Public Health | 2 | 5 | 2 | 3 | 5 | **15** |
-| 12 | Aviation: Shipping (Air Cargo) | 3 | 4 | 3 | 3 | 5 | **15** |
-| 12 | Law Enforcement: Cybercrime | 3 | 4 | 4 | 4 | 3 | **15** |
-| 12 | Emergency Services: Fire and Rescue | 4 | 3 | 5 | 2 | 5 | **15** |
-| 12 | Emergency Services: HAZMAT | 4 | 4 | 4 | 2 | 5 | **15** |
-| 17 | Aviation: Defense | 5 | 3 | 5 | 4 | 2 | **14** |
-| 17 | Agriculture: Veterinary | 2 | 4 | 3 | 2 | 5 | **14** |
-| 19 | Defense: Command and Control | 4 | 3 | 4 | 4 | 2 | **13** |
-| 20 | National Security: Counterterrorism and Counter-Narcotics | 3 | 3 | 2 | 3 | 1 | **9** |
+| 2 | Healthcare: Life Support Systems *(new)* | 5 | 4 | 5 | 4 | 5 | **18** |
+| 4 | Space: Communications and Satellites *(new)* | 4 | 5 | 5 | 4 | 3 | **17** |
+| 4 | Fintech: Investing | 3 | 4 | 4 | 4 | 5 | **17** |
+| 4 | Agriculture: Food Safety | 3 | 5 | 4 | 3 | 5 | **17** |
+| 4 | Agriculture: Sustainable Farming | 2 | 5 | 4 | 3 | 5 | **17** |
+| 4 | Fintech: Digital Payments and Transfers | 3 | 4 | 3 | 5 | 5 | **17** |
+| 4 | Healthcare: General | 4 | 4 | 3 | 5 | 5 | **17** |
+| 10 | Aviation: Commercial Flights | 5 | 3 | 5 | 4 | 4 | **16** |
+| 10 | National Security: Emergency Management | 3 | 5 | 3 | 4 | 4 | **16** |
+| 10 | Healthcare: Public Health Emergencies | 3 | 5 | 3 | 3 | 5 | **16** |
+| 10 | Fintech: Insurance | 2 | 5 | 2 | 4 | 5 | **16** |
+| 14 | Emergency Services: Fire and Rescue | 4 | 3 | 5 | 2 | 5 | **15** |
+| 14 | Law Enforcement: Cybercrime | 3 | 4 | 4 | 4 | 3 | **15** |
+| 14 | Emergency Services: HAZMAT | 4 | 4 | 4 | 2 | 5 | **15** |
+| 14 | Aviation: Shipping (Air Cargo) | 3 | 4 | 3 | 3 | 5 | **15** |
+| 14 | Healthcare: Public Health | 2 | 5 | 2 | 3 | 5 | **15** |
+| 19 | Aviation: Defense | 5 | 3 | 5 | 4 | 2 | **14** |
+| 19 | Space: Life Support Systems *(new)* | 5 | 4 | 5 | 3 | 2 | **14** |
+| 19 | Space: Manned Missions *(new)* | 5 | 4 | 5 | 3 | 2 | **14** |
+| 19 | Agriculture: Veterinary | 2 | 4 | 3 | 2 | 5 | **14** |
+| 23 | Defense: Command and Control | 4 | 3 | 4 | 4 | 2 | **13** |
+| 24 | National Security: Counterterrorism and Counter-Narcotics | 3 | 3 | 2 | 3 | 1 | **9** |
+
+### What changed in this revision
+
+- **Healthcare: Life Support Systems** enters at 18, level with Automotive. It scores almost the same as Medical Equipment, but it is largely a specialization of it (see "Specializations" below).
+- **Space: Communications and Satellites** joins the 17-point group. It has the best free-standards ecosystem on the list (CCSDS, ECSS, NASA) and strong embedded fit, held back by citizenship barriers for many US roles.
+- **Space: Manned Missions** and **Space: Life Support Systems** land at 14 with Aviation: Defense and Veterinary. The process weight is maximal, but hiring demand is narrow and entry openness is low.
+- **Rank numbers moved** because ties are now shared: the 17-point group is "tied for 4th" (it was "tied for 3rd" before the additions).
 
 ### Reading the matrix
 
-- **Top tier (17 to 19):** Medical devices and automotive stand out because the rigorous standards map directly onto embedded work and hiring demand is strong. The 17-point group is broader: payments, investing, farming, and food safety trade some embedded fit for easier access and a lighter process.
-- **Process weight vs. score:** The highest-scoring industries are also the heaviest (medical devices, automotive, aviation). If you want a lighter load, Sustainable Farming and Insurance score well with process weight 2.
-- **Entry openness drags down** all three defense and counterterrorism entries. Careers there typically require citizenship and clearance eligibility, and public project material is thin.
-- **Scores are coarse.** A one-point gap is within my judgment error. Use the matrix to shortlist, then decide on interest and on which project you would actually enjoy building.
+- **Top tier (17 to 19):** medical devices, life-support devices, and automotive stand out because rigorous, auditable standards map directly onto embedded work and hiring demand is strong. Space Communications joins them on standards access and embedded fit.
+- **Process weight vs. score:** the highest-scoring industries are also among the heaviest. If you want a lighter load, Sustainable Farming and Insurance score well with process weight 2.
+- **Entry openness drags down** every defense, counterterrorism, and crewed-space entry. Careers there typically require citizenship and clearance eligibility.
+- **Scores are coarse.** A one-point gap is within my judgment error. Use the matrix to shortlist, then decide on interest and on which project you would enjoy building.
 
-### Clusters (for picking one or combining)
+### Shortlists by goal
+
+| If you want... | Look at |
+|---|---|
+| The strongest overall fit (embedded + standards + hiring + open entry) | Medical Equipment, Automotive, Healthcare: Life Support Systems |
+| Free standards and a lighter documentation load | Sustainable Farming, Food Safety, Public Health, Insurance |
+| Systems and performance work (state machines, deterministic engines, low latency) | Investing, Payments, Automotive |
+| Space-related work with unusually open standards | Space: Communications and Satellites (then Manned Missions or Life Support as specializations) |
+| Safety-critical process control and alarm design | Healthcare: Life Support Systems, Space: Life Support Systems, HAZMAT, Food Safety |
+| Security and evidence integrity | Cybercrime, Defense C2, Payments |
+| Public-safety framing with embedded sensors | Emergency Management, Fire and Rescue, HAZMAT, Public Health Emergencies |
+
+### Clusters
 
 | Cluster | Industries | Shared themes |
 |---|---|---|
-| Safety-critical embedded | Medical Equipment, Automotive, Aviation (all three), Fire and Rescue, HAZMAT | Hazard analysis, safety integrity levels, fail-safe state machines, traceability, verification evidence |
-| Financial systems | Payments, Investing, Insurance | Ledger/audit integrity, AML, model governance, records retention, fraud controls |
-| Public safety and resilience | Emergency Management, Fire and Rescue, HAZMAT, Public Health Emergencies | NIMS/ICS, availability under degraded conditions, alerting standards (CAP/EDXL), exercises |
+| Safety-critical embedded | Medical Equipment, Healthcare: Life Support, Automotive, Aviation (all three), Space (all three), Fire and Rescue, HAZMAT | Hazard analysis, safety integrity levels, fail-safe state machines, traceability, verification evidence |
+| Life-critical control | Healthcare: Life Support, Space: Life Support, Space: Manned Missions, HAZMAT | Independent monitoring, defined safe states, alarm and caution/warning design, power redundancy, time-to-criticality |
+| Space | Communications and Satellites, Manned Missions, Life Support | CCSDS/ECSS/NASA standards, FDIR, secure commanding, human-rating |
+| Financial systems | Payments, Investing, Insurance | Ledger and audit integrity, AML, model governance, records retention |
+| Public safety and resilience | Emergency Management, Fire and Rescue, HAZMAT, Public Health Emergencies | NIMS/ICS, availability under degraded conditions, alerting standards, exercises |
 | One Health and food | Sustainable Farming, Veterinary, Food Safety, Public Health | Traceability, residue/withdrawal tracking, cold chain, surveillance data |
 | Security and defense | Defense C2, Aviation Defense, Counterterrorism, Cybercrime | RMF/NIST controls, chain of custody, access control, audit, clearance limits |
+
+### Specializations: pick the parent, then go deep
+
+Several entries are variants of a parent industry. Treat them as a way to specialize a project rather than as separate choices:
+
+- **Healthcare: Life Support Systems** deepens **Medical Equipment and Tech**.
+- **Space: Life Support Systems** deepens **Space: Manned Missions**, which in turn builds on **Space: Communications and Satellites** for the shared standards base.
+- **Aviation: Shipping** and **Aviation: Defense** are variants of **Aviation: Commercial Flights**.
+- **Healthcare: Public Health Emergencies** extends **Healthcare: Public Health**.
+- **Agriculture: Food Safety** and **Veterinary** share traceability themes with **Sustainable Farming**.
 
 ### Artifacts that transfer across almost every industry
 
 If you are unsure which industry to pick, building these well is useful everywhere:
 
 1. **Requirements-to-test traceability matrix** (two-way).
-2. **Hazard or threat analysis** (FMEA/HARA for safety, STRIDE/TARA for security).
+2. **Hazard or threat analysis** (FMEA/HARA/fault tree for safety, STRIDE/TARA for security).
 3. **Deterministic mode/state machine** with documented safe and degraded states.
 4. **Tamper-evident audit log** (hash-chained records with timestamps).
 5. **SBOM and third-party component inventory** (SOUP/OTS).
 6. **Control-mapping document** (your controls mapped to a named standard).
-7. **Verification evidence** (coverage reports, static analysis results, test reports).
+7. **Verification evidence** (coverage reports, static analysis results, test reports, fault-injection results).
 8. **Configuration management and change records.**
+9. **Independent safety monitor and defined safe state** (a second channel or hardware limit that can force the system safe).
+10. **Alarm and caution/warning logic** (priority levels, latching, acknowledgement).
 
-A reasonable strategy: build one modular "compliance-ready" core (state machine, logging, secure boot or signing, traceability tooling), then layer an industry overlay on top once you choose.
+A reasonable strategy: build one modular "compliance-ready" core (state machine, logging, signing or secure boot, traceability tooling, a monitor channel), then layer an industry overlay on top once you choose.
 
 ---
 
@@ -1086,6 +1156,231 @@ Overlaps with Aviation: Defense on RMF, CMMC, and export control. This profile f
 
 ---
 
+### 21. Space: Communications and Satellites
+
+**Regulations**
+- FCC: Part 25 (satellite licensing), Part 5 (experimental), Part 97 (amateur), orbital debris rules (including the 5-year LEO deorbit rule, effective for satellites launched after Sept 2024)
+- ITU: Radio Regulations, frequency filing and coordination, WRC outcomes, NGSO constellation deployment milestones
+- Other US: NOAA commercial remote sensing licensing (15 CFR Part 960), FAA 14 CFR Part 450 (launch/reentry), ITAR USML Category XV and EAR 9x515
+- Treaties: Outer Space Treaty (Art. VI: states authorize and supervise private operators), Liability and Registration Conventions, UN COPUOS debris and sustainability guidelines, Artemis Accords
+- Cyber: Space Policy Directive-5, NIST IR 8401 (ground segment), CNSSP 12 (national security space systems)
+- International: UK Space Industry Act 2018 (CAA licensing), NIS2 (includes space), proposed EU Space Act (verify status)
+
+**Standards**
+- CCSDS (free "Blue Books"): Space Packet Protocol, TM/TC/AOS data links, CFDP, Bundle Protocol (DTN), SDLS (link security), Mission Operations services, SLE, XTCE (telemetry/command definitions), LDPC/turbo coding
+- ECSS: E-ST-40C (software engineering), Q-ST-80C (software product assurance), E-ST-70-41C (PUS), E-ST-50-12C (SpaceWire), Q-ST-30 (dependability)
+- NASA: NPR 7150.2 (software classes A-E), NASA-STD-8739.8 (software assurance), 8719.13 (software safety), NASA-STD-1006 (space system protection), GEVS (environmental testing), EEE-INST-002 (parts derating), NASA-STD-8739 workmanship series
+- Coding: JPL Institutional C Standard, "Power of 10" rules, MISRA C, CERT C
+- Debris: ISO 24113, IADC guidelines, NASA-STD-8719.14
+- Comms: DVB-S2/S2X (ETSI), 3GPP NTN (5G non-terrestrial), ITU-R recommendations
+- Other: AS9100, ESCC and MIL-STD-883 (microelectronics/radiation), MIL-STD-1553, CubeSat Design Specification, SPARTA (Aerospace Corp space threat framework)
+
+**Frameworks and platforms**
+- Flight software: NASA cFS, JPL F Prime, RTEMS, VxWorks, FreeRTOS, Zephyr, Ada/Ravenscar
+- Ground/ops: Yamcs, NASA Open MCT, OpenC3 COSMOS, SatNOGS, ground-station-as-a-service (AWS Ground Station, KSAT, Leaf Space)
+- Comms tools: GNU Radio, gr-satellites, USRP/SDR, CSP (CubeSat Space Protocol), link-budget tools
+- Astrodynamics/sim: NASA GMAT, Basilisk, 42, Orekit, Skyfield/SGP4, SPICE, STK
+- Space safety: conjunction data from Space-Track/18th SDS, commercial SSA providers
+
+**Dev stacks**
+- Flight software: C/C++ (restricted), Ada/SPARK, growing Rust; static analysis (Coverity, Polyspace, Frama-C, CodeSonar)
+- Hardware: rad-hard/tolerant processors (LEON3/4, RAD750), COTS ARM/Zynq with mitigation, space-grade FPGAs; ECC, EDAC, memory scrubbing, watchdogs, triple modular redundancy
+- Autonomy: mode managers and state machines, FDIR (fault detection, isolation, recovery), safe mode logic
+- Comms/DSP: SDR pipelines, modems, antenna control, Python/MATLAB link analysis
+- Ground: Python, Go, Rust, Kubernetes, Kafka, time-series DBs
+- Sim/visualization: Basilisk/GMAT, FlatSat hardware-in-the-loop, Unreal/Unity/Cesium for orbit and mission visualization
+
+**Process and compliance**
+- Licensing chain: ITU filing, FCC application, orbital debris assessment and end-of-life disposal plan, UN registration, collision-avoidance process
+- Mission reviews: SRR, PDR, CDR, TRR, ORR, launch readiness (NASA 7120.5, ECSS phases)
+- Software assurance: classification drives rigor, software FMEA, IV&V, requirements traceability, "test as you fly"
+- Environmental testing: vibration, thermal vacuum, EMC; radiation effects analysis and parts selection
+- Secure commanding: authenticated telecommands (SDLS), anti-replay counters, key management, hazardous-command arming, two-person rule for critical commands
+- Launch/integration: ICDs, rideshare user guides, deployer requirements
+- Operations: contingency procedures, anomaly reporting, mission rules
+
+**Student-project feasibility**
+- Very strong and unusually free. CCSDS, ECSS (free registration), and NASA standards and handbooks are public; cFS, F Prime, Yamcs, Open MCT, SatNOGS, GNU Radio, Basilisk, and GMAT are open source.
+- Embedded: CubeSat-style flight software on an ESP32/STM32 or Linux simulator with a mode manager (boot, detumble/safe, nominal, comms, fault), FDIR rules, watchdog, CCSDS Space Packet commands and telemetry, HMAC-authenticated commanding with replay protection, XTCE telemetry definitions, a Yamcs or Open MCT ground UI, and an NPR 7150.2 Class C-style plan with software FMEA and traceability.
+- Ground-only: receive real satellite telemetry with an SDR and SatNOGS (receiving is generally license-free; verify local rules).
+- Simulation: Basilisk attitude control demo with deterministic replay.
+- Limits: not flight-qualified, no radiation testing, no transmitting on satellite frequencies without a license (amateur license for amateur bands), and avoid ITAR-controlled technical data in public repos.
+
+**Key insight:** Space GRC combines safety-critical embedded work, spectrum and orbital-debris licensing, and cybersecurity. Since you can't patch easily in orbit, the emphasis falls on FDIR, autonomy, test-as-you-fly, and secure commanding. The open standards ecosystem is the best of any industry here, and mode-manager state machines are central.
+
+---
+
+### 22. Space: Manned Missions (Human Spaceflight)
+
+Builds on Space: Communications and Satellites (CCSDS, ECSS, NPR 7150.2, secure commanding all carry over). What changes is that a failure can kill people, so the focus is human-rating, fault tolerance, and abort logic.
+
+**Regulations and policy**
+- FAA AST: 14 CFR Part 450 (launch/reentry) and Part 460 (human spaceflight: crew qualifications, informed consent, training, environmental control). A congressional "learning period" has limited FAA occupant-safety rules for commercial flights; it was extended to early 2028, so verify the current date
+- NASA human-rating: NPR 8705.2, NASA-STD-8719.29 (technical requirements for human-rating), NASA-STD-3001 (crew health and human-system standards), NPR 8715.3 (general safety), NPR 7120.5 (program management)
+- Commercial Crew: NASA certification requirements documents and an agreed loss-of-crew risk threshold (publicly reported on the order of 1 in 270)
+- ISS: Intergovernmental Agreement and crew Code of Conduct, visiting-vehicle interface requirements, payload safety requirements (SSP 51700), safety review panels
+- Treaties: Outer Space Treaty, Rescue Agreement (astronaut assistance), Liability and Registration Conventions, Artemis Accords
+- Export and privacy: ITAR/EAR for crew and hardware, Privacy Act, Common Rule/IRB for human research, Lifetime Surveillance of Astronaut Health
+- Other agencies: ESA, JAXA, CSA, Roscosmos, CMSA/China, ISRO (Gaganyaan)
+
+**Standards**
+- Safety: NASA-STD-8719.13 (software safety), NASA-STD-8739.8 (software assurance), NPR 7150.2 (Class A software for human-rated systems), NASA PRA Procedures Guide, ECSS-Q-ST-40C (safety), ECSS-Q-ST-30C (dependability)
+- Human factors: NASA-STD-3001 Vol. 2, MIL-STD-1472H; legacy NASA-STD-3000
+- Life support and materials: spacecraft maximum allowable concentrations (SMACs) for air contaminants, NASA-STD-6001 (flammability/offgassing), NASA-STD-6016 (materials)
+- Interfaces: International Docking System Standard (IDSS), SAE AS6802 (TTEthernet), MIL-STD-1553, ARINC 664-class networks, CCSDS
+- Coding: JPL C standard, "Power of 10" rules, MISRA C, Ada/SPARK
+- Environmental testing: GEVS, EEE-INST-002 (parts derating)
+
+**Frameworks and platforms**
+- Vehicles: Crew Dragon, Starliner, Orion, Soyuz, Shenzhou, suborbital vehicles (Blue Origin, Virgin Galactic), and commercial station efforts (program status changes; verify)
+- Flight software: cFS, F Prime, VxWorks, RTEMS, Linux-based systems (publicly described for Crew Dragon)
+- Simulation: NASA Trick and JEOD (open source), Basilisk, 42, Gazebo, STK
+- Formal methods: NASA FRET (requirements formalization), Copilot runtime monitors, SPIN, NuSMV, PVS
+- Safety tooling: SAPHIRE (probabilistic risk analysis), fault tree and FMEA tools, SysML/MBSE
+- Ops: Yamcs, Open MCT, mission control consoles, electronic procedures, hardware-in-the-loop avionics labs
+
+**Dev stacks**
+- Flight software: C/C++, Ada, Rust emerging; triple modular redundancy, voting, fault containment regions, dissimilar redundancy (the Shuttle ran four identical primary computers plus an independently written backup)
+- Fault tolerance logic: two-fault tolerance for catastrophic hazards, FDIR with the crew in the loop, caution and warning systems, alarm management, manual override
+- Abort systems: automatic abort triggers, time-to-criticality analysis, abort mode state machines
+- Control and embedded: ECLSS controllers (O2, CO2, pressure, temperature), thermal control loops, power and battery management (thermal runaway protection), sensor voting
+- Crew interfaces: touchscreen and display software, voice, AR/VR training (Unreal/Unity)
+
+**Process and compliance**
+- Human-rating certification with design certification reviews and flight readiness reviews
+- Hazard reports: catastrophic and critical hazards, hazard controls, verification closure, FMEA with critical items lists
+- Independent Technical Authority: separate engineering and safety authority from program management, a governance structure created after the Challenger and Columbia investigations
+- Software: Class A rigor, IV&V, configuration control boards, no unreviewed changes before flight
+- Flight rules and mission rules (including abort criteria), go/no-go polls, hazardous command verification
+- Mishap investigation boards, lessons-learned tracking, safety culture audits
+- Crew health data governance and informed consent
+- Secure uplink for crew-critical commands
+
+**Student-project feasibility**
+- Strong on concepts, with free documents. NASA standards, the Rogers Commission and CAIB reports, the PRA guide, FRET, Copilot, Trick, JEOD, Yamcs, Open MCT, cFS, and F Prime are all public.
+- Embedded: a cabin-environment monitor and controller (ESP32/STM32 with CO2/O2/pressure/temperature sensors) with a caution/warning state machine (nominal, caution, warning, emergency), 2-out-of-3 sensor voting across three sensors or MCUs, a fault tree arguing two-fault tolerance, alarm acknowledgement logic, requirements formalized in FRET, and a Class A-style software plan and traceability.
+- Software: an abort-logic decision engine for a simulated launch (Python, Trick, or C++) with flight rules as a deterministic state machine, replay testing, MC/DC-style coverage, and a Monte Carlo loss-of-crew estimate.
+- Interface: a caution and warning display in Unreal/Unity using NASA-STD-3001 human-factors guidance.
+- Limits: educational simulations only. No human-rating or certification claims, no hazardous materials, and avoid ITAR-controlled technical data in public repos.
+
+**Key insight:** Human spaceflight raises uncrewed mission assurance to life safety: fault tolerance requirements, human-rating, abort logic, and crew-in-the-loop design. It also offers a GRC lesson found almost nowhere else, which is that organizational safety culture and independent technical authority are governed, auditable structures born from accident investigations.
+
+---
+
+### 23. Healthcare: Life Support Systems
+
+A specialization of Healthcare: Medical Equipment and Tech (ISO 13485, 14971, IEC 62304 all apply). The difference is that for ventilators, ECMO, dialysis, infusion pumps, defibrillators, and anesthesia machines, a failure is a patient hazard, not a degraded mode.
+
+**Regulations**
+- FDA: most are Class II (continuous ventilators, hemodialysis, infusion pumps); implantables and heart-assist devices are Class III with PMA, and AEDs require PMA. Extended-duration ECMO is often Class III (verify by device). Also QMSR (Part 820), MDR reporting (Part 803), recalls (Part 806), Section 524B (cyber), FDA human factors guidance, the infusion pump total product life cycle guidance
+- EU: MDR (software and active therapeutic devices often land in Class IIb/III), notified body review, MDCG 2019-16 (cybersecurity), EU AI Act for AI-enabled devices
+- Other: Health Canada Class III/IV, MDSAP, PMDA, NMPA
+- Hospital side: Joint Commission NPSG.06.01.01 (alarm management), CMS conditions of participation, HIPAA for connected devices
+- Enforcement history: device recalls and consent decrees (e.g. Philips Respironics) and the Therac-25 software accidents are the standard teaching cases
+
+**Standards**
+- Core: IEC 60601-1 (essential performance, single-fault condition, programmable systems in clause 14), 60601-1-8 (alarm systems), 60601-1-2 (EMC), 60601-1-6/IEC 62366-1 (usability), 60601-1-10 (physiologic closed-loop control), 60601-1-11 (home use)
+- Particular standards: ISO 80601-2-12 (ICU ventilators), 80601-2-72 (home ventilators), IEC 60601-2-24 (infusion pumps), 60601-2-16 (hemodialysis), 60601-2-4 (defibrillators), 60601-2-49 (patient monitors), 60601-2-19 (incubators), ISO 80601-2-55/61/69 (gas monitors, oximeters, oxygen concentrators)
+- Connectors and gas path: ISO 80369 (small-bore misconnection prevention), ISO 18562 (breathing gas pathway biocompatibility), ISO 7396 (medical gas systems), ISO 15001 (oxygen compatibility)
+- Process: ISO 13485, ISO 14971, IEC 62304 Class C, IEC TR 80002-1, IEC 82304-1, IEC 81001-5-1, AAMI TIR57
+- Interoperability and networks: IEEE 11073 SDC, ASTM F2761 (Integrated Clinical Environment), IEC 80001-1, IHE-PCD profiles
+- Batteries and reliability: IEC 62133-2, UN 38.3, IEC 60812 (FMEA), IEC 61025 (fault trees)
+- Facility: NFPA 99 and NFPA 110 (essential electrical systems), IEC 62353 (recurrent equipment testing)
+
+**Frameworks and architecture patterns**
+- Independent safety channel: a second processor or hardware limit that monitors the control channel and forces a safe state (diverse, not just duplicated)
+- Defined safe states: ventilator opens an ambient-air valve, infusion pump stops and alarms, dialysis closes the venous clamp, ECMO has a manual backup
+- Alarm system design: priority levels, latching, escalation, silence/pause rules, distributed alarms
+- Power: battery backup, power-fail alarm, hot-swappable batteries
+- Open designs and models: MIT E-Vent, RespiraWorks designs, and open physiology engines (BioGears, Pulse Physiology Engine) for simulation
+
+**Dev stacks**
+- Firmware: C/C++ (MISRA), some Ada; RTOS options marketed as pre-certified to IEC 61508/62304 (SafeRTOS, ThreadX, QNX, INTEGRITY); Zephyr/FreeRTOS with your own evidence
+- Hardware: dual-core lockstep MCUs (STM32 safety variants, TI Hercules, Renesas, NXP), FPGAs, BLDC blower control, stepper/peristaltic pump drives, MEMS pressure and flow sensors
+- Control: PID/MPC for pressure, volume, flow, and FiO2 modes (VCV, PCV, PSV), leak compensation, trigger detection, fixed-point math
+- Modeling and verification: Simulink/Stateflow, UPPAAL/model checking (see the formal-methods Pacemaker Challenge), HIL rigs, fault injection, VectorCAST/LDRA/Polyspace, Ceedling/CppUTest
+- UI: Qt, TouchGFX, LVGL; embedded Linux; glove-friendly touch and clear alarm audio
+- Connectivity: BLE/Wi-Fi, FHIR/HL7, IEEE 11073 SDC, secure boot, signed updates
+
+**Process and compliance**
+- Essential performance defined up front: which functions must keep working, and what happens when they don't
+- Risk file: use-error hazards (misconnection, wrong settings), FMEA/FTA, residual-risk benefit analysis, software risk controls independent of the function they protect
+- Clinical: ISO 14155 for investigations, IDE, 510(k)/PMA/De Novo, CE marking with a notified body
+- Usability: summative testing with representative users in simulated ICU conditions
+- Cybersecurity: 524B, SBOM, patch plan, end-of-support policy
+- Post-market: complaint handling, MDR/vigilance reporting, field corrective actions, UDI, service and calibration records, field software version control
+- Hospital side: clinical engineering, alarm management programs, preventive maintenance, backup power testing
+
+**Student-project feasibility**
+- Strong, with a hard safety rule: simulation or inert bench setups only, never connected to a person or animal. Free: FDA guidance, IMDRF, Joint Commission alarm material, open ventilator designs, BioGears/Pulse, NFPA 99 (view-only). ISO/IEC standards are paywalled but heavily summarized.
+- Ventilator control and alarm prototype: STM32 or ESP32 driving a simulated lung (RC model or BioGears/Pulse), with VCV/PCV mode state machine, PID control, IEC 60601-1-8-style alarms, and a second MCU as an independent safety monitor. Include watchdogs, power-fail simulation, fault injection, and a full IEC 62304 Class C-style package: requirements, architecture, FMEA/FTA, SOUP list, SBOM, TARA, traceability.
+- Infusion pump dose software: simulated motor, occlusion detection, drug library with hard and soft limits, hash-chained event log.
+- Formal methods: model a pacemaker or an interlock (Therac-25-style) in UPPAAL and prove safety properties.
+- Software-only: alarm-stream simulator for studying alarm fatigue.
+- Limits: label everything "not a medical device," no real patients, no hazardous gases or high pressures, and no regulatory-clearance or clinical claims.
+
+**Key insight:** Life-support GRC treats alarms, independent monitoring, defined safe states, and power redundancy as regulated safety functions. It overlaps with the Manned Missions life-support work (caution and warning, fault tolerance) but adds a heavy pre-market and post-market regulatory layer and hospital-side oversight.
+
+---
+
+### 24. Space: Life Support Systems (ECLSS)
+
+Narrows Space: Manned Missions to the environmental control and life support system: air, water, thermal, fire, and pressure. Failures here are slower than in flight control but just as lethal, so the engineering centers on closed-loop process control, consumables, and time-to-criticality.
+
+**Regulations and policy**
+- NASA: NPR 8705.2 and NASA-STD-8719.29 (human-rating), NASA-STD-3001 (crew health and habitability limits), NPR 8715.3 (safety), NPR 7150.2 (Class A/B software)
+- Exposure limits: SMACs (spacecraft maximum allowable air concentrations, JSC 20584) and SWEGs (water exposure guidelines, JSC 63414)
+- FAA Part 460: requires commercial crewed operators to provide environmental control, smoke detection and fire suppression, and verification of these (see sections 460.11 to 460.17)
+- ISS program: interface and safety requirements (SSP series), safety review phases, hazard reports
+- International: ESA/ECSS (ECSS-E-ST-34C for environmental control and life support), JAXA, Roscosmos standards
+- Research and health: Common Rule/IRB for human studies, astronaut health data governance, COSPAR planetary protection for Mars-class missions
+
+**Standards**
+- Fire and materials: NASA-STD-8719.11 (fire protection), NASA-STD-6001 (flammability/offgassing), NASA-STD-6016 (materials and processes)
+- Pressure systems: ANSI/AIAA S-080 and S-081, ISO 14623, NASA fracture control practices
+- Batteries: JSC 20793 (crewed vehicle battery safety)
+- Safety and reliability: ECSS-Q-ST-40C, ECSS-Q-ST-30C, NASA PRA guide, ISO 14620 series
+- Software: NASA-STD-8739.8, NASA-STD-8719.13
+- Design values: NASA's Baseline Values and Assumptions Document (BVAD) for life-support sizing
+
+**Subsystems and platforms**
+- Air revitalization: CO2 removal (molecular sieve beds), CO2 reduction (Sabatier), oxygen generation by electrolysis, trace contaminant control, major constituent analysis (mass spectrometry), cabin ventilation
+- Water: urine processing (distillation), water processing (multifiltration, catalytic oxidation), brine processing, total organic carbon and conductivity monitoring
+- Thermal: pumped fluid loops, heat exchangers, humidity control; ammonia loops on external systems carry a toxic-leak hazard
+- Fire and pressure: smoke detectors, extinguishers, pressure relief and equalization valves, rapid-depressurization detection
+- Bioregenerative research: ESA MELiSSA, ISS plant growth systems (Veggie, APH); analog habitats such as HERA and CHAPEA
+- Modeling tools: Modelica/OpenModelica, Simulink/Simscape, EcosimPro, OpenFOAM, BVAD-based sizing, Trick, Pulse/BioGears for crew metabolism
+
+**Dev stacks**
+- Controllers: C/C++ and Ada on PowerPC/ARM; cFS or F Prime for operations; MIL-STD-1553 interfaces on ISS; valve, pump, heater, and fan drivers
+- Control design: PID, model-predictive control, Kalman-filter gas estimation, hysteresis and rate-of-change (dP/dt) detection for depressurization
+- Cyclic logic: adsorption/regeneration bed swapping and startup/standby/regen/shutdown sequences are natural state machines
+- Fault tolerance: sensor voting (2-out-of-3), redundant controllers, hardware limit alarms independent of software, defined fail-safe valve positions, leak detection
+- Analysis: CFD (OpenFOAM) for microgravity ventilation, since there is no natural convection and CO2 can pool around the crew
+- Reliability and logistics: MTBF models, spares and orbital replacement unit planning, Monte Carlo consumables budgets
+- Test: hardware-in-the-loop, long-duration endurance tests, leak and proof-pressure tests
+
+**Process and compliance**
+- Hazard analysis: toxic atmosphere, fire, depressurization, high CO2, contaminated water, microbial growth, toxic coolant leaks
+- Time-to-criticality drives automation vs. manual response; fault tolerance of two for catastrophic hazards, one for critical
+- Verification: test, analysis, inspection, demonstration; closure of hazard reports
+- Crew emergency response: fire, rapid depressurization, toxic atmosphere procedures and training
+- Environmental health monitoring: air and water sampling, archival samples, microbial checks
+- Consumables margins and lifeboat or safe-haven duration planning
+- Software: Class A rigor, IV&V, change control board; authenticated commanding for setpoint changes
+
+**Student-project feasibility**
+- Strong and varied. BVAD, NASA-STD-3001, SMAC/SWEG documents, NASA Technical Reports Server papers, MELiSSA publications, OpenModelica, OpenFOAM, Pulse/BioGears, Trick, and cFS/F Prime are free.
+- Cabin atmosphere controller: a small sealed bench container (ambient air only) or a pure simulation with O2/CO2/humidity/pressure/temperature sensing, a scrubber-bed swap state machine, 2-out-of-3 sensor voting, an independent hardware alarm, dP/dt leak detection, time-to-criticality calculation, consumables budget, fault injection, a hazard report with a two-fault-tolerance argument, and requirements in FRET.
+- Water recovery process simulation: tank levels, pumps, heating, conductivity quality gate (accept/recirculate/reject), brine handling, sensor drift detection, and hash-chained batch records.
+- Analysis projects: microgravity ventilation CFD with sensor placement, or a Monte Carlo spares-and-consumables model for a Mars-class mission using BVAD parameters.
+- Plant growth module: MELiSSA-inspired hydroponic controller with safe failure behavior.
+- Limits: educational only; no oxygen enrichment, pressurized gas, or human-occupied sealed spaces; make no crew-safety or certification claims.
+
+**Key insight:** ECLSS is safety-critical process control: slow dynamics, closed loops, and maintainability matter more than speed, and requirements are driven by consumables, mass, power, and reliability trade-offs. It shares alarm and independent-monitoring ideas with Healthcare: Life Support Systems and with the process-control work in HAZMAT and Food Safety. Governance is mostly agency review and human-rating, rather than an outside regulator. If you want a terrestrial route to the same skills, the nearest industries are hyperbaric chambers (ASME PVHO-1, NFPA 99), submarine atmosphere control, closed-circuit rebreathers, and mine refuge chambers.
+
+---
+
 ## Part 3: Verify Before Citing
 
 These items are date-sensitive or were flagged as uncertain. Check current sources before using them in coursework or applications.
@@ -1104,5 +1399,17 @@ These items are date-sensitive or were flagged as uncertain. Check current sourc
 | Part 108 (BVLOS drones) | Proposed/emerging rule; check final status |
 | NFPA 470 and related consolidated standards | Confirm current editions before citing section numbers |
 | Any ISO/IEC/NFPA edition year | Editions are revised; confirm the current edition |
+| FAA human spaceflight "learning period" end date | Extended to early 2028 as of my information; Congress can change it again |
+| FAA 14 CFR Part 460 section numbers (460.11 to 460.17) | Confirm the current text and numbering |
+| FCC 5-year LEO deorbit rule | Check applicability dates and any amendments |
+| EU Space Act | Proposed; check legislative status |
+| Commercial crew and station program statuses (Starliner, commercial stations, suborbital operators) | Program status changes quickly |
+| NASA document numbers (NASA-STD-8719.29, 8719.11, JSC 20584/63414/20793, SSP 51700) | Confirm numbers and current revisions on the NASA Technical Standards System |
+| "About 1 in 270" Commercial Crew loss-of-crew threshold | Publicly reported figure; confirm the source |
+| Pre-certified RTOS claims (SafeRTOS, ThreadX, QNX, INTEGRITY) | Check each vendor's certification scope and versions |
+| EcosimPro ECLSS libraries | Confirm what is available and its licensing |
+| Philips Respironics enforcement details | Confirm the current status of recalls and the consent decree |
+| Device particular standards (ISO 80601-2-xx, IEC 60601-2-xx) | Confirm edition and scope for the specific device type |
 
 **General caveat:** This document was written from general knowledge without live source verification. Treat it as a map of where to look, then confirm details in the primary source (regulation text, standard body, or agency guidance) before relying on them.
+
