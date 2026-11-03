@@ -78,9 +78,10 @@ If any of the next three commands return blank, close the terminal and open a ne
 ## 4. Maven
 
 Install Maven:
-
+```
 > sdk install maven
 > mvn -version
+```
 
 `mvn -version` should show Java 21 as the runtime. If not, your `$JAVA_HOME` isn't pointing at the SDKMAN JDK.
 

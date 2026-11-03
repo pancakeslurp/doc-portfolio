@@ -32,7 +32,7 @@ gh --version
 gh auth login
 ```
 
-Choose github.com or GitHub Enterprise Server
+Choose github.com or GitHub Enterprise Server.
 
 Select HTTPS or SSH for Git operations. (Save yourself the pain and use SSH, seriously.)
 
