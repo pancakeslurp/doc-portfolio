@@ -16,7 +16,7 @@ Accept the default path. Setting a passphrase is optional.
 
 ## 2. Upload the public key to GitHub
 
-With the `gh` CLI:
+With the `gh` (Github) CLI:
 
 ```bash
 gh auth refresh -h github.com -s admin:public_key
@@ -32,7 +32,7 @@ Or paste the contents of `~/.ssh/id_ed25519.pub` into GitHub under
 ssh -T git@github.com
 ```
 
-The first time, confirm GitHub's host fingerprint by typing `yes`. Success looks like:
+The first time, confirm GitHub's host fingerprint by typing `yes`. Success looks like this:
 
 ```
 Hi USERNAME! You've successfully authenticated, but GitHub does not provide shell access.
